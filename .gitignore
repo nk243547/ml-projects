@@ -9,11 +9,11 @@ venv/
 .venv/
 
 # Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb
+#.ipynb_checkpoints/
+#.ipynb
 
 # Data files
-*.csv
+#.csv
 *.json
 *.pkl
 *.pickle
@@ -43,6 +43,7 @@ outputs/
 runs/
 wandb/
 mlruns/
+.log
 
 # Large files
 *.zip
@@ -50,3 +51,5 @@ mlruns/
 *.gz
 *.rar
 *.7z
+*.html
+*.db
