@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+*.csv
+*.json
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+data/
+datasets/
+
+# Models
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.joblib
+models/
+checkpoints/
+
+# Environment
+.env
+.vscode/
+.idea/
+
+# Logs and outputs
+logs/
+outputs/
+runs/
+wandb/
+mlruns/
+
+# Large files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
