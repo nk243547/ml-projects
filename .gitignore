@@ -53,3 +53,16 @@ mlruns/
 *.7z
 *.html
 *.db
+
+# Logs
+app.log
+*.log
+
+# HTML files  
+#.html
+data_drift_report.html
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
